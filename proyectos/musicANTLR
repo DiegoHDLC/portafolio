@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es"> 
+    <head>
+        <title>Portafolio - Diego Herrera</title>
+        
+        <!-- Meta -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Soy estudiante de desarrollo web y he diseñado esta página como portafolio en el que mostrar mis proyectos.">
+        <meta name="author" content="Diego Herrera">    
+        <link rel="shortcut icon" href="../imagenes/icono.png"> 
+        <meta name="google-site-verification" content="YNMRDpcrl7FQFiBoHRNETtbSnUhiOcOA2lodl_hNFXY" />
+        <!-- Open Graph data -->
+        <meta property="og:title" content="Portafolio - Diego Herrera" />
+        <!-- <meta property="og:image" content="https://pabloduran.es/images/previsualizacion.png" /> -->
+        <!-- <meta property="og:description" content="Soy estudiante de desarrollo web y he diseñado esta página como portafolio en el que mostrar mis proyectos." /> -->
+        <meta property="og:site_name" content="../index.html" />
+        
+        <!-- Custom icons-->
+        <link rel="stylesheet" href="../css/iconos.min.css?20210222">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+        
+        <!-- Theme CSS -->  
+        <link id="theme-style" rel="stylesheet" href="../css/app.min.css?20201208">
+    
+        
+    </head> 
+    
+    <body>
+           
+        <!-- Sidebar -->
+    <header class="header">
+    
+        <div id="navegacion-top" class="container-fluid barra-navegacion">
+            <div class="row">
+                <div class="col-3">
+                    <button class="navbar-toggler" onclick="openNav()">
+                        <span class="menu-button">&#9776;</span>
+                    </button>
+                </div>
+                <div class="col-9">
+                    <p class="tittle-navbar pt-lg-4 mb-0 d-block d-lg-none"><a href="../index.html">Diego Herrera</a></p>
+                </div>
+            </div>
+        </div>
+        
+        <div id="sidebar">
+            <nav>
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
+                <div class="profile-section pt-3 pt-lg-0">
+                
+                    <img class="profile-image mb-3 rounded-circle mx-auto" src="../imagenes/fotoPerfil.jpg" alt="Foto de perfil" >			
+                    
+                    <p class="bio">¡Hola! Mi nombre es Diego y soy estudiante de Ingeniería en Computación. Estoy encantado de que visites mi página web.</p><!--//bio-->
+                    <ul class="social-list list-inline py-3 mx-auto">
+                        <li class="list-inline-item" data-sal="slide-left"><a href="https://twitter.com/DiegoHDLC27" target="_blank"><i class="fab fa-twitter fa-fw"></i></a></li>
+                        <li class="list-inline-item" data-sal="slide-left" data-sal-delay="150"><a href="https://www.linkedin.com/in/diego-herrera-088713167/" target="_blank"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+                        <li class="list-inline-item" data-sal="slide-left" data-sal-delay="300"><a href="https://github.com/DiegoHDLC" target="_blank"><i class="fab fa-github-alt fa-fw"></i></a></li>
+                        <li class="list-inline-item" data-sal="slide-left" data-sal-delay="450"><a href="https://www.instagram.com/dignacioherrera/" target="_blank"><i class="fab fa-instagram fa-fw"></i></a></li>
+                        <!-- <li class="list-inline-item"><a href="#"><i class="fab fa-codepen fa-fw"></i></a></li>-->
+                    </ul><!--//social-list-->
+                    <hr> 
+                </div><!--//profile-section-->
+                
+                <ul class="navbar-nav flex-column text-left">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../index.html"><i class="fas fa-home fa-fw mr-2"></i>Inicio<span class="sr-only">(Página Actual)</span></a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="./conocimientos"><i class="fas fa-tasks fa-fw mr-2"></i>Conocimientos</a>
+                    </li>
+                    <!-- <li class="nav-item ">
+                        <a class="nav-link" href="https://pabloduran.es/experience"><i class="fas fa-hard-hat fa-fw mr-2"></i>Experiencia</a>
+                    </li> -->
+                    <li class="nav-item ">
+                        <a class="nav-link" href="https://pabloduran.es/skills"><i class="fas fa-edit fa-fw mr-2"></i>Aptitudes</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="https://pabloduran.es/blog"><i class="fas fa-project-diagram fa-fw mr-2"></i>Blog</a>
+                    </li>
+                    <!-- <li class="nav-item ">
+                        <a class="nav-link" href="https://pabloduran.es/meteo"><i class="fas fa-chart-bar fa-fw mr-2"></i>Meteo</a>
+                    </li> -->
+                    <!-- <li class="nav-item ">
+                        <a class="nav-link" href="https://pabloduran.es/meteodata"><i class="fas fa-calendar-day fa-fw mr-2"></i>Meteo Consultas</a>
+                    </li> -->
+                    <!-- <li class="nav-item ">
+                        <a class="nav-link" href="https://pabloduran.es/quizselector"><i class="fas fa-question fa-fw mr-2"></i>Cuestionario</a>
+                    </li> -->
+                    <li class="nav-item ">
+                        <a class="nav-link" href="https://pabloduran.es/contactme"><i class="fas fa-envelope fa-fw mr-2"></i>Contactame</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header><!--//sidebar-->     
+    <div id="main-wrapper" class="main-wrapper">
+
+        <!-- head -->
+<div class="blog container mt-5">
+    <h1 class="title mb-3">MusicANTLR</h1>
+
+    <ul class="leyend"><!--Leyend-->
+        
+<li><a class="link-on-bg" href="#before">Antes de empezar</a>
+    <ul>
+        <li><a class="link-on-bg" href="#purpose">Propósito del proyecto</a></li>
+        <li><a class="link-on-bg" href="#what">¿Que necesitamos?</a></li>
+    </ul>
+</li>
+<li><a class="link-on-bg" href="#explanation">Explicación</a>
+    <ul>
+        <li><a class="link-on-bg" href="#antlr">ANTLR</a></li>
+        <li><a class="link-on-bg" href="#musicANTLR">musicANTLR</a></li>
+        <li><a class="link-on-bg" href="#librerias">Librerías utilizadas</a></li>
+        <li><a class="link-on-bg" href="#vista">Vista Principal</a></li>
+        <li><a class="link-on-bg" href="#demo">Demo</a></li>
+    </ul>
+</li>
+<li><a class="link-on-bg" href="#conclusion">Conclusión</a></li>
+
+    </ul><!--//Leyend-->
+    <p>Para este proyecto se generó un paper junto al Dr. Eric Jeltsch Figueroa, profesor de la asignatura Teoría de Autómatas y Lenguajes Formales de la Universidad de La Serena, el cual se puede descargar a continuación:</p>
+    <a class="btn btn-secondary mb-1" data-sal="fade" href="https://drive.google.com/file/d/1G8LBWY5CATKhqsAleObr7fGpFrNau8q-/view?usp=sharing" target="_blank"><i class="fas fa-file-alt mr-2"></i>Descargar Paper</a>
+    <p class="mt-4">Fecha de publicación: <time datetime="2021-08-05">05/08/21</time></p>
+
+</div>
+<!-- //head -->
+
+        <!--content-->
+        <div id="contenido">
+            
+<article class="py-3 container blog">
+    <h2 id="before" class="section-title font-weight-bold">Antes de empezar</h2>
+<h3 id="purpose" class="subtitle">Propósito del proyecto</h3>
+<p>Generar una gramática y un interprete utilizando ANTLR, en este caso para la creación y reproducción de partituras.</p>
+<h3 id="what" class="subtitle">¿Que necesitamos?</h3>
+<ul>
+    <li>Tener un IDE para su ejecución, se recomienda <a class="link-on-bg" href="https://www.eclipse.org/downloads/" target="_blank">Eclipse</a>.</li>
+    <li>Dispositivo de salida de audio.</li>
+</ul>
+
+<h2 id="explanation" class="section-title font-weight-bold">Explicación</h2>
+
+<h3 id="antlr" class="subtitle">ANTLR</h3>
+<p>El lenguaje MusicANTLR viene de la idea de generar música de una forma
+    novedosa utilizando la herramienta para reconocimiento de lenguajes ANTLR. Se
+    optó por crear una gramática simple y fácil que permita la creación de una
+    partitura musical, de esta forma poder escuchar y visualizar dicha partitura. Esto
+    fue implementado en un prototipo de software para el uso.</p>
+
+<h3 id="musicANTLR" class="subtitle">musicANTLR</h3>
+<p>MusicANTLR permite modificar los siguientes parámetros de la
+    partitura escrita:</p>
+<ul>
+    <li><b>Tempo:</b> en terminología musical hace referencia a la velocidad con la que
+        debe ejecutarse una pieza musical.</li>
+    <li><b>Instrumento:</b> define con que instrumento se quiere tocar la partitura.
+        Estos instrumentos serán mostrados más adelante en el documento.</li>
+    <li><b>Nota:</b> nota musical.</li>
+    <li><b>Alteración:</b> representa la variación del sonido de la nota, haciéndolas un
+        poco agudas o más graves.</li>
+    <li><b>Octava:</b> intervalo de ocho grados entre dos notas de la escala musical.</li>
+</ul>
+
+<h3 id="librerias" class="subtitle">Librerías utilizadas</h3>
+
+<h4>Jmusic</h4>
+<p>Es una biblioteca de programación de código abierto para Java. Está diseñado
+    para ayudar a los compositores y los desarrolladores de software de música
+    proporcionando soporte para estructuras de datos de música, modificaciones, y
+    entrada/salida a diversos formatos de archivo. Puede mostrar notas como
+    partituras.</p>
+<p>La función que se utilizó fue la de tocar una nota extraída del archivo .g4. En
+    donde se le entrega el instrumento, la nota, la octava, la alteración y el tiempo de
+    duración de la nota.</p>
+
+<h4>JFugue</h4>
+<p>Es una biblioteca de código abierto para Java, la cual fue utilizada para la
+    transformación de la partitura escrita por el usuario a una representación como
+    todos la conocemos.</p>
+
+<h3 id="vista" class="subtitle"> Vista</h3>
+<p>La vista principal fue diseñada gracias a las herramientas entregadas por el IDE Eclipse, donde lo que se buscó fue la simplicidad en el uso.</p>
+<img src="../imagenes/proyectos/vistaPrincipalMusicANTLR.png" class="rounded mx-auto d-block img-fluid mb-3" alt="Vista principal" width="400px" height="300px">
+
+<h3 id="demo" class="subtitle"> Demo</h3>
+<p>A continuación, la imagen presentada es un ejemplo visual de lo entregado por el programa al reproducir una partitura escrita por el usuario.</p>
+<img src="../imagenes/proyectos/demoMusicANTLR.png" class="rounded mx-auto d-block img-fluid mb-3" alt="Vista principal" width="400px" height="300px">
+<p>En el siguiente enlace se puede reproducir un video demostrando la ejecución del programa, generando un fragmento de la composición Für Elise de Ludwig van Beethoven.  <a class="link-on-bg" href="https://drive.google.com/file/d/1xm-wmRSnUmb0uaIs4OnVXuIY_P_53yLA/view" target="_blank">Demo</a>.</p>
+
+<h3 id="conclusion" class="subtitle"> Conclusiones</h3>
+<p> Uno de los aspectos más interesantes a considerar en el 
+    proceso de implementación de MusicANTLR fue la componente 
+    de “usabilidad”, ya que la facilidad de uso es inversamente 
+    proporcional a la complejidad de la partitura que se desea editar, 
+    frente a otros que demandaban mucha práctica y conocimiento 
+    musical, tales como Sibelius o Finale, por ejemplo. En nuestro 
+    caso, MusicANTLR, no requiere que el usuario tenga que 
+    realizar complejas tareas o manejos computacionales 
+    engorrosos para la transcripción de partituras.</p>
+
+<p>Se probó que MusicANTLR puede usarse por una persona 
+    que recién se está iniciando en la música o bien por algún 
+    músico que necesite elaborar una partitura que él conoce, de 
+    forma rápida y limpia, la cual tenga directa relación con una obra 
+    vocal o instrumento solista (el software se limita a trabajar con 
+    un instrumento a la vez). </p>
+
+<p>Además, este proyecto de software ha permitido recrear 
+    nuevamente los conceptos clásicos de los Lenguajes Formales y
+    Lenguajes de Dominio Específico con la utilización de 
+    herramientas de productividad tales como, ANTLR en su versión 
+    4.9.2, Eclipse 2021-03(4.19.0), Java versión 8 Update 301, JDK 
+    1.8.0_291, y otras librerías que ya se mencionaron a lo largo del 
+    artículo. Sin embargo, lo más relevante, fue incursionar y salir 
+    con relativo éxito desde un ámbito “casi” desconocido como es 
+    la teoría musical, pues existe un conjunto de parámetros o 
+    relaciones que nos unen, como es el acento en el lenguaje 
+    natural, la duración o la altura tonal, en el ámbito de los sonidos, 
+    la combinación reglada de unidades sonoras para formar 
+    estructuras jerárquicas, en el plano de la estructura, y la 
+    expresión de emociones y la evocación de experiencias, en el 
+    terreno del significado (semántica) logran una cercanía 
+    suficiente con la propuesta</p>
+    
+
+    
+</article>
+
+        </div>
+        <!--//content-->
+
+        <footer class="footer text-center py-2 theme-bg-dark">
+	<!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+    <small class="copyright"> Todos los créditos <a href="../creditos">Aquí</a>.</small>
+</footer>    
+    </div><!--//main-wrapper-->
+
+    <!-- Javascript --> 
+    <script src="https://pabloduran.es/js/jquery-3.5.1.min.js"></script>
+    <script src="https://pabloduran.es/js/popper.min.js"></script> 
+    <script src="https://pabloduran.es/js/bootstrap.min.js"></script>  
+    <script src="https://pabloduran.es/js/ajustarContenido.min.js?20200915"></script>
+    <!-- animations scroll -->
+    <script src="https://pabloduran.es/js/sal.js"></script> 
+    <script>
+        sal({
+            threshold: 0.5, // 50%
+            selector: '[data-sal]:not(.after-reset)'
+        });
+    </script>
+    <script src="https://pabloduran.es/js/navbar.min.js"></script>
+     
+    
+        <!--CodeBlock JS-->
+    <script src="https://pabloduran.es/js/highlight/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+</body>
+</html> 

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="es"> 
+<head>
+    <title>DISTODMH - Diego Herrera</title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Se desarrolla una herramienta de apoyo para las personas con trastorno del habla disfemia tónica">
+    <meta name="author" content="Diego Herrera">    
+    <!-- <link rel="shortcut icon" href="./imagenes/icono.png">  -->
+    <meta name="google-site-verification" content="YNMRDpcrl7FQFiBoHRNETtbSnUhiOcOA2lodl_hNFXY" />
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Herramienta de apoyo para personas que padecen disfemia tónica" />
+    <meta property="og:image" content="./imagenes/proyectos/404_error.png"/>
+    <meta property="og:description" content="Se explicará de manera general la implementación de la solución propuesta" />
+    <meta property="og:site_name" content="https://pabloduran.es/laravel-errores-personalizados" />
+    
+    <!-- Custom icons-->
+    <link rel="stylesheet" href="/css/iconos.min.css?20210222">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="https://pabloduran.es/css/app.min.css?20201208">
+
+    <!--CodeBlock CSS-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.1/styles/atom-one-dark.min.css">
+
+
+
+</head> 
+
+<body>
+       
+    <!-- Sidebar -->
+    <header class="header">
+
+        <div id="navegacion-top" class="container-fluid barra-navegacion">
+            <div class="row">
+                <div class="col-3">
+                    <button class="navbar-toggler" onclick="openNav()">
+                        <span class="menu-button">&#9776;</span>
+                    </button>
+                </div>
+                <div class="col-9">
+                    <p class="tittle-navbar pt-lg-4 mb-0 d-block d-lg-none"><a href="./index">Diego Herrera</a></p>
+                </div>
+            </div>
+        </div>
+        
+        <div id="sidebar">
+            <nav>
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
+                <div class="profile-section pt-3 pt-lg-0">
+                
+                    <img class="profile-image mb-3 rounded-circle mx-auto" src="../imagenes/fotoPerfil.jpg" alt="Foto de perfil" >				
+                    
+                    <p class="bio">¡Hola! Mi nombre es Diego y soy estudiante de Ingeniería en Computación. Estoy encantado de que visites mi página web.</p><!--//bio-->
+                    <ul class="social-list list-inline py-3 mx-auto">
+                        <li class="list-inline-item" data-sal="slide-left"><a href="https://twitter.com/DiegoHDLC27" target="_blank"><i class="fab fa-twitter fa-fw"></i></a></li>
+                        <li class="list-inline-item" data-sal="slide-left" data-sal-delay="150"><a href="https://www.linkedin.com/in/diego-herrera-088713167/" target="_blank"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+                        <li class="list-inline-item" data-sal="slide-left" data-sal-delay="300"><a href="https://github.com/DiegoHDLC" target="_blank"><i class="fab fa-github-alt fa-fw"></i></a></li>
+                        <li class="list-inline-item" data-sal="slide-left" data-sal-delay="450"><a href="https://www.instagram.com/dignacioherrera/" target="_blank"><i class="fab fa-instagram fa-fw"></i></a></li>
+                        <!-- <li class="list-inline-item"><a href="#"><i class="fab fa-codepen fa-fw"></i></a></li>-->
+                    </ul><!--//social-list-->
+                    <hr> 
+                </div><!--//profile-section-->
+                
+                <ul class="navbar-nav flex-column text-left">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../index.html"><i class="fas fa-home fa-fw mr-2"></i>Inicio<span class="sr-only">(Página Actual)</span></a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="./conocimientos"><i class="fas fa-tasks fa-fw mr-2"></i>Conocimientos</a>
+                    </li>
+                    <!-- <li class="nav-item ">
+                        <a class="nav-link" href="https://pabloduran.es/experience"><i class="fas fa-hard-hat fa-fw mr-2"></i>Experiencia</a>
+                    </li> -->
+                    <li class="nav-item ">
+                        <a class="nav-link" href="https://pabloduran.es/skills"><i class="fas fa-edit fa-fw mr-2"></i>Aptitudes</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="https://pabloduran.es/blog"><i class="fas fa-project-diagram fa-fw mr-2"></i>Blog</a>
+                    </li>
+                    <!-- <li class="nav-item ">
+                        <a class="nav-link" href="https://pabloduran.es/meteo"><i class="fas fa-chart-bar fa-fw mr-2"></i>Meteo</a>
+                    </li> -->
+                    <!-- <li class="nav-item ">
+                        <a class="nav-link" href="https://pabloduran.es/meteodata"><i class="fas fa-calendar-day fa-fw mr-2"></i>Meteo Consultas</a>
+                    </li> -->
+                    <!-- <li class="nav-item ">
+                        <a class="nav-link" href="https://pabloduran.es/quizselector"><i class="fas fa-question fa-fw mr-2"></i>Cuestionario</a>
+                    </li> -->
+                    <li class="nav-item ">
+                        <a class="nav-link" href="https://pabloduran.es/contactme"><i class="fas fa-envelope fa-fw mr-2"></i>Contactame</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header><!--//sidebar-->    
+    <div id="main-wrapper" class="main-wrapper">
+
+        <!-- head -->
+<div class="blog container mt-5">
+    <h1 class="title mb-3">Herramienta de apoyo para personas que padecen disfemia tónica</h1>
+
+    <ul class="leyend"><!--Leyend-->
+        
+<li><a class="link-on-bg" href="#before">Antes de empezar</a>
+    <ul>
+        <li><a class="link-on-bg" href="#purpose">Propósito del proyecto</a></li>
+        <li><a class="link-on-bg" href="#what">¿Qué se necesita?</a></li>
+    </ul>
+</li>
+<li><a class="link-on-bg" href="#explanation">Explicación</a>
+    <ul>
+        <li><a class="link-on-bg" href="#disfemia">Disfemia</a></li>
+        <li><a class="link-on-bg" href="#efectoCoral">Efecto coral</a></li>
+        <li><a class="link-on-bg" href="#solucionActual">Solucion actual</a></li>
+        <li><a class="link-on-bg" href="#solucionPropuesta">Solución propuesta</a></li>
+        <li><a class="link-on-bg" href="#disfemia">Disfemia</a></li>
+        <!-- <li><a href="link-on-bg" href="#modelo"> Modelo</a></li> -->
+        <!-- <li><a class="link-on-bg" href="#plantilla">Plantilla errores</a></li> -->
+        <!-- <li><a class="link-on-bg" href="#errores">Errores</a></li> -->
+    </ul>
+</li>
+<!-- <li><a class="link-on-bg" href="#conclusion">Conclusión</a></li> -->
+
+    </ul><!--//Leyend-->
+    <p class="mt-4">Proyecto en desarrollo...</p>
+</div>
+<!-- //head -->
+
+        <!--content-->
+        <div id="contenido">
+            
+<article class="py-3 container blog">
+    <h2 id="before" class="section-title font-weight-bold">Antes de empezar</h2>
+<h3 id="purpose" class="subtitle">Propósito del proyecto</h3>
+<p>Generar un modelo que disminuya el tiempo de bloqueo generado en la comunicación verbal en una persona con disfemia tónica, para luego ser implementado en un prototipo de software </p>
+<h3 id="what" class="subtitle">¿Qué se necesita?</h3>
+<ul>
+    <li>Un IDE para correr la apliación, por ejemplo  <a class="link-on-bg" href="https://code.visualstudio.com/" target="_blank">VSCode</a></li>
+    <li>Dispositivo de entrada de audio</li>
+    <li>Dispositivo de salida de audio</li>
+</ul>
+
+<h2 id="explanation" class="section-title font-weight-bold">Explicación</h2>
+
+<h3 id="disfemia" class="subtitle">Disfemia</h3>
+<p>La Organización Mundial de la Salud, dentro de los distintos trastornos de la fluidez verbal, define la disfemia como un trastorno especial del ritmo del habla. Dicha condición está  caracterizada por presentar repeticiones, prolongaciones de sonidos verbales o bloqueos al iniciar palabras pese a que la persona sepa lo que va a decir. La disfluencia resulta imposible de eludir y la persona reacciona con conductas de esfuerzo y tensión para hablar, añadiendo también comportamientos de evasión, escape o logofobia y que conlleva una repercusión negativa en el rendimiento escolar, social y más tarde laboral. La tartamudez o disfemia, se inicia típicamente en la edad preescolar; alrededor de los 3 años de edad, sin que exista en la mayor parte de los casos, un motivo desencadenante. En general, hay un componente familiar de predisposición a la tartamudez.</p>
+<p>Cabe destacar que según cifras del año 2020, hay más de 72 millones de personas con disfemia en el mundo, es decir, cerca del 1% de la población mundial. Asimismo, de este último total, un 84% de los adultos afectados por esta condición, manifiesta haber tenido dificultades para hacer amigos, durante su infancia. </p>
+<p>Si bien, el trastorno no es la consecuencia de un problema psicopatológico, si tiene implicancias psicológicas negativas al cronificarse y complicarse con su evolución. A diferencia de la normal falta de fluidez de todo niño preescolar, la tartamudez afecta al 5% de los mismos, la cual, si logra ser identificada prematuramente, es factible mejorar la fluidez, previniendo las consecuencias de su persistencia o cronificación. Aunque es un trastorno independiente, se encuentra una frecuencia de comorbilidad con otros trastornos (retraso del lenguaje, retraso del habla y ansiedad) más alta de lo normal.</p>
+<p>Existen 3 tipos de disfemia que pueden darse en función del tipo de disfluencia que presente la persona: <br>
+
+    <b>Tónica:</b> caracterizada por las múltiples interrupciones ocasionadas por espasmos. Durante las interrupciones el paciente muestra rigidez y tensión faciales. Es la que presenta peor diagnóstico. <br>
+    <b>Clónica:</b> caracterizada por las repeticiones de sílabas y palabras enteras, más frecuentes en consonante que en vocal, más todavía en oclusivas y que se dan mayoritariamente a principio que en medio de palabra. <br>
+    <b>Tónico-clónica o mixta:</b> es el tipo más frecuente, porque resulta difícil encontrar un disfémico puro tónico o clónico, la mayoría combinan los dos síntomas</p>
+
+<h3 id="efectoCoral" class="subtitle">Efecto Coral</h3>
+<!-- <p>Vamos a crear los archivos necesarios para mostrar las páginas de errores personalizados. No es necesario que lo hagamos manualmente ya que Laravel nos proporciona un comando artisan para esto <code class="code-line">vendor:publish</code>. Para poder ejecutar este comando tenemos que estar con el terminal en la raíz de nuestra carpeta del proyecto laravel. Vale cualquier terminal ya sea predeterminado del sistema u otro instalado.</p> -->
+<p>El efecto coral ocurre cuando las personas que tartamudean hablan o cantan al unísono con otras personas y de esta manera su tartamudeo se reduce dráasticamente o incluso se elimina temporalmente</p>
+
+<h3 id="solucionActual" class="subtitle">Solución actual del problema</h3>
+<p>En la actualidad se presentan herramientas que simulan este efecto, reproduciendo la voz
+    del paciente en su oído, pero con un desfase de tiempo de milisegundos, conocida como
+    DAF (retroalimentación auditiva demorada). También se puede alterar el timbre de la voz
+    reproducida, esta técnica es conocida como FAF (retroalimentación auditiva alterada en
+    frecuencia).</p>
+<p>El uso de estas herramientas de simulación conlleva ventajas y desventajas en el usuario: <br>
+    <b>Ventajas:</b>  <br>
+    ● La reducción de la disfemia es entre un 30% y un 75%. <br>
+    <b>Desventajas: </b> <br>
+    ● Algunos aparatos llegan a ser bastante costosos. <br>
+    ● El usuario al estar constantemente escuchando su propia voz con desfase y/o
+    alterada en frecuencia, el cerebro se llega a acostumbrar a este desfase y
+    constantemente se tiene que ir aumentando, a tal punto de ser molesto y no efectivo.
+    </p>
+
+<h3 id="solucionPropueseta" class="subtitle">Solución general propuesta</h3>
+<p>Dado que nuestro modelo busca replicar rel efecto coral, es esperable que el usuario tenga que oír la palabra para superar el bloqueo que se pueda presentar. </p>
+<p>Para esto se utilizan diferentes tipos de redes neuronales con distintos propósitos, las cuales están siendo implementadas en algunos cursos de la carrera, como: <br>
+    <ul>
+        <li type="circle">Ingeniería de Software </li>
+        <li type="circle">Ingeniería de Software II</li>
+        <li type="circle">Inteligencia Artificial </li>
+    </ul>
+    Para luego continuar el proyecto y presentarlo como tesis.
+</p>
+<p>Se han utilizado redes neuronales como la red neuronal recurrente de ELMAN y en la última versión del proyecto se está utilizando una GRU (Gated Recurrent Unit) para aumentar la precisión buscada, donde la funcionalidad principal de esta red es predecir la palabra que está pensando el usuario.<br>
+    Cabe destacar que estas redes neuronales recurrentes han sido implementadas sin el uso de librerías. Esto se hace para entender el funcionamiento que hay detrás de una red neuronal.
+</p>
+<p>
+    Proyecto en desarrollo...
+</p>
+<!-- <p>Una vez hecho esto veremos como en nuestra carpeta "<strong>resources > views</strong>" nos habrá aparecido la carpeta <strong>errors</strong> con todos los archivos de error y tres archivos más que son las plantillas que puedes usar.</p> -->
+
+<!-- <h3 id="plantilla" class="subtitle">Plantilla errores</h3>      
+<p>Ahora que ya hemos creado los archivos simplemente tenemos que modificarlos a nuestro gusto. Si no queremos complicarnos mucho el propio Laravel nos da tres plantillas predefinidas pero aquí hemos venido a modificarlo para que encaje a la perfección con nuestra <strong>plantilla personalizada</strong> así que de primera tenemos que crear un nuevo archivo que podemos llamar como queramos. En mi caso el archivo se llamará <strong>custom</strong> quedanto el nombre completo como <code class="code-line">custom.blade.php</code>. Importante añadirle el .blade.php para que funcione.</p>
+<p>Dentro de esta plantilla podemos hacer lo que queramos. Crear una plantilla desde cero o seguir la <strong>estructura básica de nuestra web</strong>. En mi caso seguira la estructura básica de la web porque quiero que aparezca la barra de navegación y el footer.</p>
+<p>Como quiero que siga la plantilla blasica, dirección de mi plantilla básica "<strong>resources > views > layouts > plantilla.blade.php</strong>" de mi web, en el archivo que hemos creado anteriormente, custom.blade.php, le ponemos que extiende de la otra plantilla <code class="code-line">&#64;extends ("layouts.plantilla")</code>. Ahora nuestra plantilla de errores tiene todo el básico de nuestra web, estructura html, css, javaScript, etc.</p>
+<p>La plantilla básica debe de tener un <code class="code-line">&#64;yield("contenido")</code> para que podamos añadir la información que queramos mostrar en cada página de error. Si ya tienes el "&#64;yield" desde el archivo <strong>custom.blade.php</strong> que tenemos en la carpeta errors añadimos <code class="code-line">&#64;section ("contenido")</code> y en su interior escribimos la estructura que tendran todas las páginas de error. En mi caso quiero que tengan cada una una imagen personalizada, un titulo, una descripción, código de error producido y un botón que nos lleve a la página principal. Quedaría de la siguiente forma:</p>
+<pre>
+    <code class="language-html floating-box">
+&#60;!-- pantilla para páginas de errores situado en resource > errors > custom.blade.php
+
+&#64;extends ("layouts.plantilla")
+
+&#64;section ("content")
+
+&#60;!--block--&#62;
+&#60;section&#62;
+    &#60;div class="container p-3 p-lg-4 theme-bg-light"&#62;
+        &#60;div class="row"&#62;
+            &#60;div class="col-md-8 mb-3 mx-auto text-center"&#62;
+                &#64;yield('image')
+                &#60;h5 class="card-title color-main"&#62;¡&#64;yield('body-title')!&#60;/h5&#62;
+                &#60;p class="card-text"&#62;&#64;yield('text')&#60;/p&#62;
+                &#60;p class="card-text" style="font-family: monospace; color:gray;"&#62;Código de error: &#64;yield('code')&#60;/p&#62;
+                &#60;nav class="blog-nav nav nav-justified my-2"&#62;
+                    &#60;a class="nav-link-next nav-item nav-link rounded" href="/index"&#62;
+                        &#60;i class="fas fa-arrow-alt-circle-right mr-2"&#62;&#60;/i&#62;Página principal
+                    &#60;/a&#62;
+                &#60;/nav&#62;
+            &#60;/div&#62;&#60;!--//col--&#62;
+        &#60;/div&#62;&#60;!--//row--&#62;
+    &#60;/div&#62;&#60;!--//container--&#62;
+&#60;/section&#62;&#60;!--//block--&#62;
+
+&#64;endsection
+    </code>
+</pre> -->
+
+ <!-- <h3 id="modelo" class="subtitle">Presentación general del modelo</h3> <br> -->
+<!-- <p>Borramos todo lo que tenga el documento y de decimos que el archivo es una extensión de custom.blade.php por lo que lo pondremos de esta forma <code class="code-line">&#64;extends('errors::custom')</code>. Ahora simplemente tenemos que rellenar los "yield" que tenia la plantilla para personalizar los errores quedando de la siguiente forma:</p> -->
+<!-- <pre>
+    <code class="floating-box">
+&#64;extends('errors::custom')
+
+&#64;section('image')
+&#60;img src="https://pabloduran.es/images/errors/error-404.svg" class="img-fluid" alt="imagen error 404"&#62;
+&#64;endsection
+
+&#64;section('title', __('404'))
+&#64;section('body-title', 'Página no encontrada')
+&#64;section('text', __('Lo siento, pero no he podido encontrar la página que buscas.'))
+&#64;section('code', '404')
+    </code>
+</pre>
+<p>Ahora simplemente tenemos que repetir el proceso para todos los errores con su información específica. El resultado final será algo parecido a la siguiente imagen en mi caso.</p> -->
+<!-- <img src="../imagenes/proyectos/modeloGeneral.jpg" alt="Modelo General"> -->
+
+<!-- <h2 id="conclusion" class="section-title font-weight-bold">Conclusión</h2>
+<p> .</p> 
+
+    
+</article>
+
+        </div>
+        //content
+
+        <footer class="footer text-center py-2 theme-bg-dark">
+	 This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com
+    <small class="copyright">Todos los créditos <a href="./creditos">Aquí</a>.</small>
+</footer>    
+    </div>//main-wrapper
+-->
+    <!-- Javascript --> 
+    <script src="https://pabloduran.es/js/jquery-3.5.1.min.js"></script>
+    <script src="https://pabloduran.es/js/popper.min.js"></script> 
+    <script src="https://pabloduran.es/js/bootstrap.min.js"></script>  
+    <script src="https://pabloduran.es/js/ajustarContenido.min.js?20200915"></script>
+    <!-- animations scroll -->
+    <script src="https://pabloduran.es/js/sal.js"></script> 
+    <script>
+        sal({
+            threshold: 0.5, // 50%
+            selector: '[data-sal]:not(.after-reset)'
+        });
+    </script>
+    <script src="https://pabloduran.es/js/navbar.min.js"></script>
+     
+    
+        <!--CodeBlock JS-->
+    <script src="https://pabloduran.es/js/highlight/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+</body>
+</html> 
