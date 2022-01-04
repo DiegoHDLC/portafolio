@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es"> 
+    <head>
+        <title>Portafolio - Diego Herrera</title>
+        
+        <!-- Meta -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Soy estudiante de desarrollo web y he diseñado esta página como portafolio en el que mostrar mis proyectos.">
+        <meta name="author" content="Diego Herrera">    
+        <link rel="shortcut icon" href="./imagenes/icono.png"> 
+        <meta name="google-site-verification" content="YNMRDpcrl7FQFiBoHRNETtbSnUhiOcOA2lodl_hNFXY" />
+        <!-- Open Graph data -->
+        <meta property="og:title" content="Portafolio - Diego Herrera" />
+        <!-- <meta property="og:image" content="https://pabloduran.es/images/previsualizacion.png" /> -->
+        <!-- <meta property="og:description" content="Soy estudiante de desarrollo web y he diseñado esta página como portafolio en el que mostrar mis proyectos." /> -->
+        <meta property="og:site_name" content="./index" />
+        
+        <!-- Custom icons-->
+        <link rel="stylesheet" href="./css/iconos.min.css?20210222">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+        
+        <!-- Theme CSS -->  
+        <link id="theme-style" rel="stylesheet" href="./css/app.min.css?20201208">
+    
+        
+    </head> 
+    
+    <body>
+           
+        <!-- Sidebar -->
+    <header class="header">
+    
+        <div id="navegacion-top" class="container-fluid barra-navegacion">
+            <div class="row">
+                <div class="col-3">
+                    <button class="navbar-toggler" onclick="openNav()">
+                        <span class="menu-button">&#9776;</span>
+                    </button>
+                </div>
+                <div class="col-9">
+                    <p class="tittle-navbar pt-lg-4 mb-0 d-block d-lg-none"><a href="./index.html">Diego Herrera</a></p>
+                </div>
+            </div>
+        </div>
+        
+        <div id="sidebar">
+            <nav>
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
+                <div class="profile-section pt-3 pt-lg-0 ">
+                
+                    <img class="profile-image mb-3 rounded-circle mx-auto" src="./imagenes/fotoPerfil.jpg" alt="Foto de perfil" >			
+                    
+                    <p class="bio">¡Hola! Mi nombre es Diego y soy estudiante de Ingeniería en Computación. Estoy encantado de que visites mi página web.</p><!--//bio-->
+                    <ul class="social-list list-inline py-3 mx-auto">
+                        <li class="list-inline-item" data-sal="slide-left"><a href="https://twitter.com/DiegoHDLC28" target="_blank"><i class="fab fa-twitter fa-fw"></i></a></li>
+                        <li class="list-inline-item" data-sal="slide-left" data-sal-delay="150"><a href="https://www.linkedin.com/in/diego-herrera-088713167/" target="_blank"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+                        <li class="list-inline-item" data-sal="slide-left" data-sal-delay="300"><a href="https://github.com/DiegoHDLC" target="_blank"><i class="fab fa-github-alt fa-fw"></i></a></li>
+                        <li class="list-inline-item" data-sal="slide-left" data-sal-delay="450"><a href="https://www.instagram.com/dignacioherrera/" target="_blank"><i class="fab fa-instagram fa-fw"></i></a></li>
+                        <!-- <li class="list-inline-item"><a href="#"><i class="fab fa-codepen fa-fw"></i></a></li>-->
+                    </ul><!--//social-list-->
+                    <hr> 
+                </div><!--//profile-section-->
+                
+                <ul class="navbar-nav flex-column text-left">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html"><i class="fas fa-home fa-fw mr-2"></i>Inicio<span class="sr-only">(Página Actual)</span></a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="./conocimientos.html"><i class="fas fa-tasks fa-fw mr-2"></i>Conocimientos</a>
+                    </li>
+                    <!-- <li class="nav-item ">
+                        <a class="nav-link" href="https://pabloduran.es/experience"><i class="fas fa-hard-hat fa-fw mr-2"></i>Experiencia</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="./aptitudes.html"><i class="fas fa-edit fa-fw mr-2"></i>Aptitudes</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="https://pabloduran.es/blog"><i class="fas fa-project-diagram fa-fw mr-2"></i>Blog</a>
+                    </li>
+                    <!-- <li class="nav-item ">
+                        <a class="nav-link" href="https://pabloduran.es/meteo"><i class="fas fa-chart-bar fa-fw mr-2"></i>Meteo</a>
+                    </li> -->
+                    <!-- <li class="nav-item ">
+                        <a class="nav-link" href="https://pabloduran.es/meteodata"><i class="fas fa-calendar-day fa-fw mr-2"></i>Meteo Consultas</a>
+                    </li> -->
+                    <!-- <li class="nav-item ">
+                        <a class="nav-link" href="https://pabloduran.es/quizselector"><i class="fas fa-question fa-fw mr-2"></i>Cuestionario</a>
+                    </li> -->
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./contactame.html"><i class="fas fa-envelope fa-fw mr-2"></i>Contactame</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header><!--//sidebar-->     
+    <div id="main-wrapper" class="main-wrapper">
+
+                <!--head-->
+            <section class="p-3 p-lg-5 theme-bg-light col-12">
+                <div class="container">
+                    <div class="col-12 col-md-8 mx-auto text-center media flex-column flex-lg-row">
+                        <div class="media-body">
+                            <h1 class="tittle-page font-weight-bold mb-1" data-sal="fade">Contactame</h1>
+                            <p class="mb-4" data-sal="fade">Si quieres contactar conmigo, lo puedes hacer a través de mi correo dherreradelacalle@gmail.com o a través de mis redes sociales:</p>
+                            <ul class="social-list list-inline py-3 mx-auto">
+                                <li class="list-inline-item" data-sal="slide-left"><a href="https://twitter.com/DiegoHDLC28" target="_blank"><i class="fab fa-twitter fa-fw"></i></a></li>
+                                <li class="list-inline-item" data-sal="slide-left" data-sal-delay="150"><a href="https://www.linkedin.com/in/diego-herrera-088713167/" target="_blank"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+                                <li class="list-inline-item" data-sal="slide-left" data-sal-delay="300"><a href="https://github.com/DiegoHDLC" target="_blank"><i class="fab fa-github-alt fa-fw"></i></a></li>
+                                <li class="list-inline-item" data-sal="slide-left" data-sal-delay="450"><a href="https://www.instagram.com/dignacioherrera/" target="_blank"><i class="fab fa-instagram fa-fw"></i></a></li>
+                                <!-- <li class="list-inline-item"><a href="#"><i class="fab fa-codepen fa-fw"></i></a></li>-->
+                            </ul><!--//social-list-->
+                        </div><!--//media-body-->
+                    </div>
+                </div><!--//container--> 
+            </section><!--//head-->
+
+        <!--content-->
+        <!-- <div id="contenido">
+            <section class="contact-section px-3 py-5 p-md-5 container">
+    <form id="contact-form" class="contact-form col-lg-8 mx-lg-auto" method="post" action="mail.php">
+        <div class="form-row">                                                           
+            <div class="form-group col-md-6" data-sal="slide-up">
+                <label class="sr-only" for="cname">Nombre</label>
+                <input type="text" class="form-control" id="cname" name="name" placeholder="Nombre" minlength="2" required="" aria-required="true">
+                <input type="hidden" name="_token" value="D32608yD3cQcJLKtMVSFN62AKS7Nboe2ES6U5kOV">
+            </div>                    
+            <div class="form-group col-md-6" data-sal="slide-up">
+                <label class="sr-only" for="cemail">Correo electrónico</label>
+                <input type="email" class="form-control" id="cemail" name="email" placeholder="Email" required="" aria-required="true">
+            </div>
+           
+            <div class="form-group col-12" data-sal="slide-up" data-sal-delay="500">
+                <label class="sr-only" for="cmessage">Tu mesaje</label>
+                <textarea class="form-control" id="cmessage" name="msg" placeholder="Introduce tu mesaje" rows="10" required="" aria-required="true"></textarea>
+            </div>
+                <div class="form-group col-12" data-sal="fade" data-sal-delay="800">
+                <button type="submit" name="enviar" class="btn btn-block btn-primary py-2 g-recaptcha" data-sitekey="6Ldw2B4bAAAAAOZphbNzUoUXq_vYnCSjaAIshN_j" data-callback='onSubmit' data-action='submit'>Enviar</button>
+            </div>                           
+        </div>//form-row -->
+    </form>
+</section>
+        <!-- </div> -->
+        <!--//content-->
+
+        <!-- <footer class="footer text-center py-2 theme-bg-dark"> -->
+	<!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+    <!-- <small class="copyright">Diseñado por <a href="https://pabloduran.es/index">Pablo Durán</a> todos los créditos <a href="https://pabloduran.es/creditos">Aquí</a>.</small> -->
+<!-- </footer>     -->
+    <!-- </div>//main-wrapper -->
+
+    <!-- Javascript --> 
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/popper.min.js"></script> 
+    <script src="./js/bootstrap.min.js"></script>  
+    <script src="./js/ajustarContenido.min.js?20200915"></script>
+    <!-- animations scroll -->
+    <script src="./js/sal.js"></script> 
+    <script>
+        sal({
+            threshold: 0.5, // 50%
+            selector: '[data-sal]:not(.after-reset)'
+        });
+    </script>
+    <script src="./js/navbar.min.js"></script>
+     
+    
+        <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/contactMe.js?20200914"></script>
+    <script>
+   /*function onSubmit(token) {
+        document.getElementById("demo-form").submit();
+    }*/
+    </script>
+    <script>
+        $("#button").click(function(event){
+          $('#contact-form').submit();
+        });
+    </script>
+    
+
+</body>
+</html> 

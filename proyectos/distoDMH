@@ -15,14 +15,14 @@
     <meta property="og:title" content="Herramienta de apoyo para personas que padecen disfemia tónica" />
     <meta property="og:image" content="./imagenes/proyectos/404_error.png"/>
     <meta property="og:description" content="Se explicará de manera general la implementación de la solución propuesta" />
-    <meta property="og:site_name" content="https://pabloduran.es/laravel-errores-personalizados" />
+    <!-- <meta property="og:site_name" content="https://pabloduran.es/laravel-errores-personalizados" /> -->
     
     <!-- Custom icons-->
-    <link rel="stylesheet" href="/css/iconos.min.css?20210222">
+    <link rel="stylesheet" href="../css/iconos.min.css?20210222">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     
     <!-- Theme CSS -->  
-    <link id="theme-style" rel="stylesheet" href="https://pabloduran.es/css/app.min.css?20201208">
+    <link id="theme-style" rel="stylesheet" href="../css/app.min.css?20201208">
 
     <!--CodeBlock CSS-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.1/styles/atom-one-dark.min.css">
@@ -58,7 +58,7 @@
                     
                     <p class="bio">¡Hola! Mi nombre es Diego y soy estudiante de Ingeniería en Computación. Estoy encantado de que visites mi página web.</p><!--//bio-->
                     <ul class="social-list list-inline py-3 mx-auto">
-                        <li class="list-inline-item" data-sal="slide-left"><a href="https://twitter.com/DiegoHDLC27" target="_blank"><i class="fab fa-twitter fa-fw"></i></a></li>
+                        <li class="list-inline-item" data-sal="slide-left"><a href="https://twitter.com/DiegoHDLC28" target="_blank"><i class="fab fa-twitter fa-fw"></i></a></li>
                         <li class="list-inline-item" data-sal="slide-left" data-sal-delay="150"><a href="https://www.linkedin.com/in/diego-herrera-088713167/" target="_blank"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
                         <li class="list-inline-item" data-sal="slide-left" data-sal-delay="300"><a href="https://github.com/DiegoHDLC" target="_blank"><i class="fab fa-github-alt fa-fw"></i></a></li>
                         <li class="list-inline-item" data-sal="slide-left" data-sal-delay="450"><a href="https://www.instagram.com/dignacioherrera/" target="_blank"><i class="fab fa-instagram fa-fw"></i></a></li>
