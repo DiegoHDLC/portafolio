@@ -68,16 +68,16 @@
                         <a class="nav-link" href="../index.html"><i class="fas fa-home fa-fw mr-2"></i>Inicio<span class="sr-only">(Página Actual)</span></a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="./conocimientos"><i class="fas fa-tasks fa-fw mr-2"></i>Conocimientos</a>
+                        <a class="nav-link" href="../conocimientos.html"><i class="fas fa-tasks fa-fw mr-2"></i>Conocimientos</a>
                     </li>
                     <!-- <li class="nav-item ">
                         <a class="nav-link" href="https://pabloduran.es/experience"><i class="fas fa-hard-hat fa-fw mr-2"></i>Experiencia</a>
                     </li> -->
                     <li class="nav-item ">
-                        <a class="nav-link" href="https://pabloduran.es/skills"><i class="fas fa-edit fa-fw mr-2"></i>Aptitudes</a>
+                        <a class="nav-link" href="../aptitudes.html"><i class="fas fa-edit fa-fw mr-2"></i>Aptitudes</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="https://pabloduran.es/blog"><i class="fas fa-project-diagram fa-fw mr-2"></i>Blog</a>
+                        <a class="nav-link" href="../blog.html"><i class="fas fa-project-diagram fa-fw mr-2"></i>Blog</a>
                     </li>
                     <!-- <li class="nav-item ">
                         <a class="nav-link" href="https://pabloduran.es/meteo"><i class="fas fa-chart-bar fa-fw mr-2"></i>Meteo</a>
@@ -89,7 +89,7 @@
                         <a class="nav-link" href="https://pabloduran.es/quizselector"><i class="fas fa-question fa-fw mr-2"></i>Cuestionario</a>
                     </li> -->
                     <li class="nav-item ">
-                        <a class="nav-link" href="https://pabloduran.es/contactme"><i class="fas fa-envelope fa-fw mr-2"></i>Contactame</a>
+                        <a class="nav-link" href="../contactame.html"><i class="fas fa-envelope fa-fw mr-2"></i>Contactame</a>
                     </li>
                 </ul>
             </nav>
