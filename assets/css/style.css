@@ -232,6 +232,13 @@ h6 {
   background-size: cover;
 }
 
+/* if its mobile do hero height */
+@media (max-width: 768px) {
+  #hero {
+    height: 30vh;
+  }
+}
+
 #hero:before {
   content: "";
   background: rgba(5, 13, 24, 0.3);
