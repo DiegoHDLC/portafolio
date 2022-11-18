@@ -225,22 +225,45 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+/* if its desktop do something*/
+
 #hero {
+  width: 100%;
+  /* height: 100vh; */
+  background: url("../img/profile-bg2.jpeg") top center;
+  background-size: cover;
+
+}
+@media (min-width: 769px){
+  #hero {
+    /* width: 100%; */
+    height: 100vh;
+    /* background: url("../img/profile-bg2.jpeg") top center;
+    background-size: cover; */
+  }
+}
+
+
+/* #hero {
   width: 100%;
   height: 100vh;
   background: url("../img/profile-bg2.jpeg") top center;
   background-size: cover;
-}
+} */
 
 /* if its mobile do hero height */
 @media (max-width: 768px) {
   #hero {
     height: 30vh;
+    /* height: 200px;
+    max-height: 300px; */
+    /* background: url("../img/profile-bg2.jpeg") top center;
+    background-size: cover; */
   }
 }
 
 #hero:before {
-  content: "";
+  /* content: ""; */
   background: rgba(5, 13, 24, 0.3);
   position: absolute;
   bottom: 0;
