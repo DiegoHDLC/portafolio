@@ -395,6 +395,15 @@ section {
   margin-bottom: 0;
 }
 
+.about .content button[type="button"]{
+  background: #149ddd;
+  border:0;
+  padding: 10px 24px;
+  color: #fff;
+  transition:0.4s;
+  border-radius:4px;
+}
+
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
